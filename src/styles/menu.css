@@ -1,0 +1,13 @@
+.menubg {
+    height: 65vh;
+    background-image: url(/public/images/menu-bg.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.menubg2 {
+    height: 65vh;
+    background-image: url(/public/images/menu-bg2.png);
+    background-size: cover;
+    background-attachment: fixed;
+}

@@ -1,0 +1,99 @@
+.news {
+
+}
+
+.news-blok {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.news-blok__section {
+    background-color: var(--bg-dark-color);
+}
+
+.news-blok__section__container {
+    padding: 30px 20px;
+}
+
+.news-blok__section__container a {
+    text-decoration: none;
+}
+
+.news-blok__section__image {
+    overflow: hidden;
+    height: 250px;
+}
+
+.news-blok__section__image img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    transition: .8s;
+    cursor: pointer;
+}
+
+.news-blok__section__image img:hover {
+    transform: scale(1.1);
+}
+
+.news-blok__section__header {
+    display: flex;
+    justify-content: start;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.news-blok__section__header__part {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+}
+
+.news-blok__section__header__part__icon {
+    color: var(--orange-color);
+}
+
+.news-blok__section__header__part p {
+    color: var(--text-color);
+}
+
+.news-blok__section__container h1 {
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 10px;
+    transition: .5s;
+}
+
+.news-blok__section__container h1:hover {
+    color: var(--orange-color);
+}
+
+.news-blok__section__container p {
+    color: var(--text-color);
+    letter-spacing: 0.2px;
+    font-size: 105%;
+}
+
+.news-blok__section__container button {
+    background: none;
+    border: none;
+    color: var(--orange-color);
+    font-size: 110%;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.news-blok__section__container button:hover {
+    opacity: .7;
+}
+
+@media (max-width: 768px) {
+    .news-blok {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+}

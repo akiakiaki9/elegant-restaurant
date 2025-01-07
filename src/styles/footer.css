@@ -1,0 +1,332 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    font-size: 105%;
+}
+
+.footer-blok-1 {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    background-color: var(--bg-dark-color);
+    padding: 60px 10px;
+}
+
+.footer-blok-1__section-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+
+.footer-blok-1__section-1 img {
+    height: 50px;
+    max-width: 100%;
+}
+
+.footer-blok-1__section-1 p {
+    color: var(--text-color);
+    max-width: 300px;
+}
+
+.footer-blok-1__section-1__container {
+    display: flex;
+    justify-content: start;
+    gap: 20px;
+}
+
+.footer-blok-1__section-1__container__icon {
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    transition: .5s;
+    cursor: pointer;
+    color: var(--text-color);
+    background-color: var(--bg-light-color);
+}
+
+.footer-blok-1__section-1__container__icon:hover {
+    background-color: var(--orange-color);
+}
+
+.footer-blok-1__section-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.footer-blok-1__section-2__part {
+    display: flex;
+    justify-content: start;
+    gap: 7px;
+    align-items: center;
+}
+
+.footer-blok-1__section-2__part div {
+    width: 5px;
+    height: 5px;
+    background-color: var(--orange-color);
+}
+
+.footer-blok-1__section-2__part a {
+    font-weight: 100;
+    color: var(--text-color);
+    text-decoration: none;
+    font-size: 105%;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.footer-blok-1__section-2__part a:hover {
+    color: var(--orange-color);
+}
+
+.footer-blok-1__section-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+
+.footer-blok-1__section-3__part {
+    display: flex;
+    justify-content: start;
+    gap: 10px;
+    align-items: center;
+}
+
+.footer-blok-1__section-3__part__icon {
+    width: 20px;
+    height: 20px;
+    color: var(--orange-color);
+    transition: .5s;
+    cursor: pointer;
+}
+
+.footer-blok-1__section-3__part p {
+    color: var(--text-color);
+    font-weight: 300;
+}
+
+.footer-blok-1__section-3__part a {
+    text-decoration: none;
+    transition: .5s;
+    font-weight: 300;
+    color: var(--text-color);
+}
+
+.footer-blok-1__section-3__part a:hover {
+    color: var(--orange-color);
+}
+
+.footer-blok-1__section-4 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer-blok-1__p {
+    font-size: 150%;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.footer-blok-1__section-4__container {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-blok-1__section-4__container__part {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+    font-size: 120%;
+    padding: 3px 0;
+}
+
+.footer-blok-1__section-4__container__part p {
+    font-weight: 300;
+    color: var(--text-color);
+}
+
+.footer-blok-1__section-4__container__part-1 {
+    border-bottom: 1px solid #777777;
+}
+
+.footer-blok-1__section-4__container__part-2 {
+    border-bottom: 1px solid #777777;
+}
+
+.footer-blok-1__section-4__container__part-3 {
+    border-bottom: 1px solid #777777;
+}
+
+.footer-blok-1__section-4__container__part-4 {
+    border-bottom: 1px solid #777777;
+}
+
+@media (max-width: 1070px) {
+    .footer-blok-1 {
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer-blok-1 {
+        flex-direction: column;
+        align-items: start;
+        padding: 25px 0 25px 50px;
+    }
+    .footer-blok-1__section-1,
+    .footer-blok-1__section-2,
+    .footer-blok-1__section-3,
+    .footer-blok-1__section-4
+    {
+        gap: 10px;
+    }
+}
+
+@media (max-width: 375px) {
+    .footer-blok-1 {
+        flex-direction: column;
+        align-items: center;
+        padding: 25px 0 25px 0;
+    }
+}
+
+
+
+.footer-blok-2 {
+    padding: 30px 10px;
+    background-color: var(--bg-light-color);
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.footer-blok-2__section {
+    display: flex;
+    justify-content: start;
+    gap: 20px;
+    align-items: center;
+}
+
+.footer-blok-2__section p {
+    color: #fff;
+    font-size: 140%;
+}
+
+.footer-blok-2__section__icon {
+    width: 50px;
+    height: 40px;
+    color: var(--orange-color);
+}
+
+.footer-blok-2__section form {
+    display: flex;
+    justify-content: start;
+    gap: 20px;
+}
+
+.footer-blok-2__section form input {
+    font-size: 105%;
+    background: none;
+    border: 1px solid #777777;
+    color: #fff;
+    outline: none;
+    padding: 15px 20px;
+    width: 450px;
+}
+
+.footer-blok-2__section form input::placeholder {
+    opacity: 1;
+    color: var(--text-color);
+}
+
+.footer-blok-2__section form button {
+    background-color: var(--orange-color);
+    color: #fff;
+    padding: 10px 25px;
+    font-size: 110%;
+    transition: .5s;
+    cursor: pointer;
+    border: 1px solid var(--text-color);
+}
+
+.footer-blok-2__section form button:hover {
+    opacity: .7;
+}
+
+@media (max-width: 1040px) {
+    .footer-blok-2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+}
+
+@media (max-width: 646px) {
+    .footer-blok-2__section {
+        gap: 10px;
+    }
+    .footer-blok-2__section form input {
+        font-size: 100%;
+        padding: 10px 15px;
+        width: 250px;
+    }
+    
+    .footer-blok-2__section form button {
+        padding: 10px 15px;
+        font-size: 100%;
+    }
+    .footer-blok-2__section form {
+        gap: 10px;
+    }
+}
+
+@media (max-width: 398px) {
+
+    .footer-blok-2__section p {
+        font-size: 120%;
+    }
+    
+    .footer-blok-2__section__icon {
+        width: 40px;
+        height: 30px;
+        color: var(--orange-color);
+    }
+
+    .footer-blok-2__section form {
+        gap: 10px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-blok-2__section form input {
+        font-size: 100%;
+        padding: 10px 15px;
+        width: 270px;
+    }
+    
+    .footer-blok-2__section form button {
+        padding: 10px 15px;
+        font-size: 100%;
+        width: 100%;
+    }
+}
+
+.footer-blok-3 {
+    padding: 30px 10px;
+    background-color: var(--bg-dark-color);
+}
+
+.footer-blok-3 p {
+    text-align: center;
+    color: #fff;
+    font-size: 110%;
+    font-weight: 200;
+}

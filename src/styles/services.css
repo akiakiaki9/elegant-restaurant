@@ -1,0 +1,80 @@
+.services {
+
+}
+
+.services-blok {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.services-blok__section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    overflow: hidden;
+}
+
+.services-blok__section__link {
+    overflow: hidden;
+}
+
+.services-blok__section img {
+    width: 100%;
+    transition: .5s;
+    cursor: pointer;
+    height: auto;
+}
+
+.services-blok__section img:hover {
+    transform: scale(1.1);
+}
+
+.services-blok__section__p1 {
+    font-size: 150%;
+    color: #fff;
+}
+
+.services-blok__section__p2 {
+    color: var(--text-color);
+}
+
+.services-blok__section a {
+        text-decoration: none;
+}
+
+.services-blok__section a button {
+    padding: 10px 20px;
+    font-size: 105%;
+    color: #fff;
+    border: 1px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    background: none;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.services-blok__section a button:hover {
+    background-color: var(--orange-color);
+    border-color: var(--orange-color);
+}
+
+@media (max-width: 768px) {
+    .services-blok {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .services-blok__section__link {
+        overflow: hidden;
+    }
+    
+    .services-blok__section img {
+        width: 100%;
+        height: 30vh;
+        object-fit: cover;
+    }    
+}

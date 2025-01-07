@@ -1,0 +1,41 @@
+/* font-family: 'Jost', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+/* font-family: 'Miniver', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Miniver&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Jost', sans-serif;
+}
+
+:root {
+    --bg-dark-color: #080b0e;
+    --bg-light-color: #101418;
+    --orange-color: #c6a87d;
+    --text-color: #ffffffcc;
+}
+
+.shrift {
+    font-family: 'Miniver', cursive;
+}
+
+.layout {
+    background-color: var(--bg-light-color);
+    padding: 60px 30px;
+}
+
+.layout2 {
+    background-color: var(--bg-dark-color);
+    padding: 60px 30px;
+}
+
+.button-span {
+    width: 30px;
+    height: 1px;
+    border-radius: 1px;
+    background-color: var(--text-color);
+}
