@@ -31,8 +31,8 @@ export default function Navbar() {
                 </div>
                 <div className="navbar-footer__section navbar-footer__section-4">
                     <p>Social Links</p>
-                    <a href=""><FaInstagram className='navbar-footer__section__icon-2' /></a>
-                    <a href=""><FaTelegramPlane className='navbar-footer__section__icon-2' /></a>
+                    <a href="https://t.me/akbarsoftowner"><FaInstagram className='navbar-footer__section__icon-2' /></a>
+                    <a href="https://t.me/akbarsoftowner"><FaTelegramPlane className='navbar-footer__section__icon-2' /></a>
                 </div>
             </div>
         </div>

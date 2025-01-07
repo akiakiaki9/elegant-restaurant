@@ -15,8 +15,8 @@ export default function Footer() {
                     <Link to='/'><img src="/images/logo.png" alt={`${NAME_RESTAURANT} Logo`} /></Link>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget rhoncus consectetur enim.</p>
                     <div className="footer-blok-1__section-1__container">
-                        <a href=""><FaInstagram className='footer-blok-1__section-1__container__icon' /></a>
-                        <a href=""><FaTelegram className='footer-blok-1__section-1__container__icon' /></a>
+                        <a href="https://t.me/akbarsoftowner"><FaInstagram className='footer-blok-1__section-1__container__icon' /></a>
+                        <a href="https://t.me/akbarsoftowner"><FaTelegram className='footer-blok-1__section-1__container__icon' /></a>
                     </div>
                 </div>
                 <div className="footer-blok-1__section-2">
