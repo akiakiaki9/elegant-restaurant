@@ -11,3 +11,21 @@
     background-size: cover;
     background-attachment: fixed;
 }
+
+@media (max-width: 768px) {
+    .menubg {
+        height: 50vh;
+        background-image: url(/public/images/menu-bg.png);
+        background-size: cover;
+        background-position: center;
+        background-attachment: local;
+    }
+    
+    .menubg2 {
+        height: 50vh;
+        background-image: url(/public/images/menu-bg2.png);
+        background-size: cover;
+        background-position: center;
+        background-attachment: local;
+    }
+}
